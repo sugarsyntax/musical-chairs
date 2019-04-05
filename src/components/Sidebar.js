@@ -9,7 +9,8 @@ class Sidebar extends Component {
   render() {
     return (
       <div>
-        <Button />
+        <Button>Choose a city</Button>
+        <Button>Add Event</Button>
       </div>
     );
   }
