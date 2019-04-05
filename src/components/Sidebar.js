@@ -1,14 +1,18 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 
-class Map extends Component {
+const Button = styled.button`
+  border: 1px solid #444;
+`;
+
+class Sidebar extends Component {
   render() {
     return (
       <div>
-        <div />
+        <Button />
       </div>
     );
   }
 }
 
-export default Map;
+export default Sidebar;

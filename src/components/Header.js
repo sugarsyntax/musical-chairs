@@ -5,20 +5,26 @@ const Div = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-`;
-const Button = styled.a`
-  color: #444;
-  border: 1px solid #444;
-  border-radius: 25px;
+  font-family: "Helvetica";
+  button {
+    color: #444;
+    border: 1px solid #444;
+    border-radius: 25px;
+  }
+  h1 {
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 25px;
+  }
 `;
 
 class Header extends Component {
   render() {
     return (
       <Div>
-        <Button>Home</Button>
+        <button>Home</button>
         <h1>Musical Chairs</h1>
-        <Button>Log In</Button>
+        <button>Log In</button>
       </Div>
     );
   }
