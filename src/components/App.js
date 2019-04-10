@@ -4,11 +4,6 @@ import Header from "./Header";
 import Map from "./Map";
 import Sidebar from "./Sidebar";
 
-const H1 = styled.h1`
-  color: #27aebd;
-  text-align: center;
-`;
-
 class App extends Component {
   render() {
     return (

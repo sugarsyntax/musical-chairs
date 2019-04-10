@@ -15,7 +15,7 @@ const Div = styled.div`
   h1 {
     font-size: 1.5rem;
     font-weight: 500;
-    padding: 10px;
+    padding: 0.1rem 2rem;
     border: 1px solid #444;
     border-radius: 25px;
   }
@@ -25,13 +25,13 @@ class Header extends Component {
   render() {
     return (
       <Div>
-        <h2>
+        <p>
           <button>Home</button>
-        </h2>
+        </p>
         <h1>Musical Chairs</h1>
-        <h2>
+        <p>
           <button>Log In</button>
-        </h2>
+        </p>
       </Div>
     );
   }
