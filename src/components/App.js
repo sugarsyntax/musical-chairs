@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import Header from "./Header";
 import Map from "./Map";
-import Sidebar from "./Sidebar";
 
 class App extends Component {
   render() {
@@ -10,7 +9,6 @@ class App extends Component {
       <div>
         <Header />
         <Map />
-        <Sidebar />
       </div>
     );
   }
